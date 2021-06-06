@@ -1,0 +1,443 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# 	* openacademy
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 11.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-11-26 02:41+0000\n"
+"PO-Revision-Date: 2019-11-25 21:57-0500\n"
+"Last-Translator: <>\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: \n"
+"Language: es_AR\n"
+"X-Generator: Poedit 2.2.4\n"
+
+#. module: openacademy
+#: model:ir.ui.view,arch_db:openacademy.session_kanban_view
+msgid ""
+"<br/>\n"
+"                                Start date:"
+msgstr ""
+"<br/>\n"
+"                                Fecha de Inicio:"
+
+#. module: openacademy
+#: model:ir.ui.view,arch_db:openacademy.session_kanban_view
+msgid ""
+"<br/>\n"
+"                                duration:"
+msgstr ""
+"<br/>\n"
+"                                duración:"
+
+#. module: openacademy
+#: code:addons/openacademy/models/models.py:173
+#, python-format
+msgid "A session's instructor can't be an attendee"
+msgstr "El instructor de la sesión no puede ser un asistente"
+
+#. module: openacademy
+#: model:ir.ui.view,arch_db:openacademy.course_form_view
+msgid "About"
+msgstr "A cerca de"
+
+#. module: openacademy
+#: model:ir.model.fields,field_description:openacademy.field_openacademy_session_active
+msgid "Active"
+msgstr "Activo"
+
+#. module: openacademy
+#: model:ir.ui.view,arch_db:openacademy.wizard_form_view
+msgid "Add Atendees"
+msgstr "Add Atendees"
+
+#. module: openacademy
+#: model:ir.actions.act_window,name:openacademy.launch_session_wizard
+msgid "Add Attendees"
+msgstr "Agregar Aisistentes"
+
+#. module: openacademy
+#: model:ir.model.fields,field_description:openacademy.field_res_partner_session_ids
+#: model:ir.model.fields,field_description:openacademy.field_res_users_session_ids
+msgid "Attended Sessions"
+msgstr "Attended Sessions"
+
+#. module: openacademy
+#: model:ir.model.fields,field_description:openacademy.field_openacademy_wizard_attendee_ids
+msgid "Attendee"
+msgstr "Asistente"
+
+#. module: openacademy
+#: model:ir.model.fields,field_description:openacademy.field_openacademy_session_attendee_ids
+msgid "Attendees"
+msgstr "Asistentes"
+
+#. module: openacademy
+#: model:ir.model.fields,field_description:openacademy.field_openacademy_session_attendees_count
+msgid "Attendees Count"
+msgstr "Attendees Count"
+
+#. module: openacademy
+#: model:ir.ui.view,arch_db:openacademy.wizard_form_view
+msgid "Cancel"
+msgstr "Cancelar"
+
+#. module: openacademy
+#: model:ir.model.fields,field_description:openacademy.field_openacademy_session_color
+msgid "Color"
+msgstr "Color"
+
+#. module: openacademy
+#: model:ir.ui.menu,name:openacademy.configuration_menu
+msgid "Configuration"
+msgstr "Configuración"
+
+#. module: openacademy
+#: model:ir.model,name:openacademy.model_res_partner
+msgid "Contact"
+msgstr "Contacto"
+
+#. module: openacademy
+#: model:ir.actions.act_window,name:openacademy.contact_list_action
+msgid "Contactos"
+msgstr "Contactos"
+
+#. module: openacademy
+#: model:ir.ui.menu,name:openacademy.contact_menu
+msgid "Contacts"
+msgstr "Contacts"
+
+#. module: openacademy
+#: code:addons/openacademy/models/models.py:49
+#, python-format
+msgid "Copy of %s"
+msgstr "Copy of %s"
+
+#. module: openacademy
+#: code:addons/openacademy/models/models.py:51
+#, python-format
+msgid "Copy of %s (%s)"
+msgstr "Copia de %s (%s)"
+
+#. module: openacademy
+#: code:addons/openacademy/models/models.py:47
+#, python-format
+msgid "Copy of %s%%"
+msgstr "Copia de %s%%"
+
+#. module: openacademy
+#: model:ir.model.fields,field_description:openacademy.field_openacademy_session_course_id
+msgid "Course"
+msgstr "Course"
+
+#. module: openacademy
+#: model:ir.ui.view,arch_db:openacademy.course_form_view
+msgid "Course Form"
+msgstr "Course Form"
+
+#. module: openacademy
+#: model:ir.ui.view,arch_db:openacademy.course_search_view
+msgid "Course Search"
+msgstr "Course Search"
+
+#. module: openacademy
+#: model:ir.ui.view,arch_db:openacademy.course_list_view
+msgid "Course Tree"
+msgstr "Course Tree"
+
+#. module: openacademy
+#: model:ir.actions.act_window,name:openacademy.course_list_action
+#: model:ir.ui.menu,name:openacademy.courses_menu
+#: model:ir.ui.view,arch_db:openacademy.course_form_view
+msgid "Courses"
+msgstr "Cursos"
+
+#. module: openacademy
+#: model:ir.actions.act_window,help:openacademy.course_list_action
+msgid "Create the first course"
+msgstr "Create the first course"
+
+#. module: openacademy
+#: model:ir.model.fields,field_description:openacademy.field_openacademy_course_create_uid
+#: model:ir.model.fields,field_description:openacademy.field_openacademy_session_create_uid
+#: model:ir.model.fields,field_description:openacademy.field_openacademy_wizard_create_uid
+msgid "Created by"
+msgstr "Creado por"
+
+#. module: openacademy
+#: model:ir.model.fields,field_description:openacademy.field_openacademy_course_create_date
+#: model:ir.model.fields,field_description:openacademy.field_openacademy_session_create_date
+#: model:ir.model.fields,field_description:openacademy.field_openacademy_wizard_create_date
+msgid "Created on"
+msgstr "Creado en"
+
+#. module: openacademy
+#: model:ir.model.fields,field_description:openacademy.field_openacademy_session_datetime_test
+msgid "Datetime Test"
+msgstr "Datetime Test"
+
+#. module: openacademy
+#: model:ir.ui.view,arch_db:openacademy.session_kanban_view
+msgid "Delete"
+msgstr "Borrar"
+
+#. module: openacademy
+#: model:ir.model.fields,field_description:openacademy.field_openacademy_course_description
+#: model:ir.ui.view,arch_db:openacademy.course_form_view
+msgid "Description"
+msgstr "Descripción"
+
+#. module: openacademy
+#: model:ir.model.fields,field_description:openacademy.field_openacademy_course_display_name
+#: model:ir.model.fields,field_description:openacademy.field_openacademy_session_display_name
+#: model:ir.model.fields,field_description:openacademy.field_openacademy_wizard_display_name
+msgid "Display Name"
+msgstr "Nombre mostrado"
+
+#. module: openacademy
+#: model:ir.model.fields,field_description:openacademy.field_openacademy_session_duration
+msgid "Duration"
+msgstr "Duration"
+
+#. module: openacademy
+#: model:ir.model.fields,help:openacademy.field_openacademy_session_duration
+msgid "Duration in days"
+msgstr "Duration in days"
+
+#. module: openacademy
+#: model:ir.model.fields,field_description:openacademy.field_openacademy_session_hours
+msgid "Duration in hours"
+msgstr "Duration in hours"
+
+#. module: openacademy
+#: model:ir.model.fields,field_description:openacademy.field_openacademy_session_end_date
+msgid "End Date"
+msgstr "End Date"
+
+#. module: openacademy
+#: model:ir.ui.view,arch_db:openacademy.course_search_view
+msgid "Group By"
+msgstr "Agrupar por"
+
+#. module: openacademy
+#: model:ir.model.fields,field_description:openacademy.field_openacademy_course_id
+#: model:ir.model.fields,field_description:openacademy.field_openacademy_session_id
+#: model:ir.model.fields,field_description:openacademy.field_openacademy_wizard_id
+msgid "ID"
+msgstr "ID (identificación)"
+
+#. module: openacademy
+#: code:addons/openacademy/models/models.py:154
+#, python-format
+msgid "Incorrect 'seats' value"
+msgstr ""
+"Valor incorrecto de 'asientos\n"
+"'"
+
+#. module: openacademy
+#: code:addons/openacademy/models/models.py:163
+#, python-format
+msgid "Increase seats or remove excess attendess"
+msgstr "Incremente el número de asientos o remueva el exceso de asistentes"
+
+#. module: openacademy
+#: model:ir.model.fields,field_description:openacademy.field_openacademy_session_instructor_id
+#: model:ir.model.fields,field_description:openacademy.field_res_partner_instructor
+#: model:ir.model.fields,field_description:openacademy.field_res_users_instructor
+msgid "Instructor"
+msgstr "Instructor"
+
+#. module: openacademy
+#: model:ir.model.fields,field_description:openacademy.field_openacademy_course___last_update
+#: model:ir.model.fields,field_description:openacademy.field_openacademy_session___last_update
+#: model:ir.model.fields,field_description:openacademy.field_openacademy_wizard___last_update
+msgid "Last Modified on"
+msgstr "Última modificación en"
+
+#. module: openacademy
+#: model:ir.model.fields,field_description:openacademy.field_openacademy_course_write_uid
+#: model:ir.model.fields,field_description:openacademy.field_openacademy_session_write_uid
+#: model:ir.model.fields,field_description:openacademy.field_openacademy_wizard_write_uid
+msgid "Last Updated by"
+msgstr "Última actualización de"
+
+#. module: openacademy
+#: model:ir.model.fields,field_description:openacademy.field_openacademy_course_write_date
+#: model:ir.model.fields,field_description:openacademy.field_openacademy_session_write_date
+#: model:ir.model.fields,field_description:openacademy.field_openacademy_wizard_write_date
+msgid "Last Updated on"
+msgstr "Última actualización en"
+
+#. module: openacademy
+#: model:ir.ui.view,arch_db:openacademy.course_search_view
+msgid "My Courses"
+msgstr "My Courses"
+
+#. module: openacademy
+#: model:ir.ui.view,arch_db:openacademy.partner_instructor_form_view
+msgid "My Ref"
+msgstr "My Ref"
+
+#. module: openacademy
+#: model:ir.model.fields,field_description:openacademy.field_openacademy_session_name
+msgid "Name"
+msgstr "Nombre"
+
+#. module: openacademy
+#: model:ir.ui.view,arch_db:openacademy.course_search_view
+msgid "Name Search"
+msgstr "Name Search"
+
+#. module: openacademy
+#: model:ir.ui.view,arch_db:openacademy.course_list_view
+msgid "Name Tree"
+msgstr "Name Tree"
+
+#. module: openacademy
+#: model:ir.model.fields,field_description:openacademy.field_openacademy_session_seats
+msgid "Number of seats"
+msgstr "Number of seats"
+
+#. module: openacademy
+#: model:ir.ui.menu,name:openacademy.main_openacademy_menu
+#: model:ir.ui.menu,name:openacademy.openacademy_menu
+msgid "Open Academy"
+msgstr "Open Academy"
+
+#. module: openacademy
+#: model:res.groups,name:openacademy.group_manager
+msgid "OpenAcademy / Manager"
+msgstr "OpenAcademy / Manager"
+
+#. module: openacademy
+#: model:ir.model.fields,field_description:openacademy.field_res_partner_other_field
+#: model:ir.model.fields,field_description:openacademy.field_res_users_other_field
+msgid "Other Field"
+msgstr "Other Field"
+
+#. module: openacademy
+#: model:ir.model.fields,field_description:openacademy.field_res_partner_other_field2
+#: model:ir.model.fields,field_description:openacademy.field_res_users_other_field2
+msgid "Other Field2"
+msgstr "Other Field2"
+
+#. module: openacademy
+#: model:ir.ui.view,arch_db:openacademy.session_graph_view
+msgid "Participations by Courses"
+msgstr "Participations by Courses"
+
+#. module: openacademy
+#: model:ir.model.fields,field_description:openacademy.field_openacademy_course_responsible_id
+#: model:ir.ui.view,arch_db:openacademy.course_search_view
+msgid "Responsible"
+msgstr "Responsible"
+
+#. module: openacademy
+#: model:ir.model.fields,field_description:openacademy.field_openacademy_course_session_ids
+#: model:ir.model.fields,field_description:openacademy.field_openacademy_wizard_session_ids
+msgid "Session"
+msgstr "Session"
+
+#. module: openacademy
+#: model:ir.ui.view,arch_db:openacademy.session_calendar_view
+msgid "Session Calendar"
+msgstr "Session Calendar"
+
+#. module: openacademy
+#: model:ir.ui.view,arch_db:openacademy.session_form_view
+msgid "Session Form"
+msgstr "Session Form"
+
+#. module: openacademy
+#: model:ir.ui.view,arch_db:openacademy.session_tree_view
+msgid "Session Tree"
+msgstr "Session Tree"
+
+#. module: openacademy
+#: model:ir.ui.view,arch_db:openacademy.session_kanban_view
+msgid "Session name:"
+msgstr "Session name:"
+
+#. module: openacademy
+#: model:ir.actions.act_window,name:openacademy.session_list_action
+#: model:ir.ui.menu,name:openacademy.session_menu
+#: model:ir.ui.view,arch_db:openacademy.partner_instructor_form_view
+msgid "Sessions"
+msgstr "Sessions"
+
+#. module: openacademy
+#: model:ir.model.fields,field_description:openacademy.field_openacademy_session_start_date
+msgid "Start Date"
+msgstr "Start Date"
+
+#. module: openacademy
+#: model:ir.ui.view,arch_db:openacademy.wizard_form_view
+msgid "Subscribe"
+msgstr "Subscribe"
+
+#. module: openacademy
+#: model:ir.model.fields,field_description:openacademy.field_openacademy_session_taken_seats
+msgid "Taken Seats"
+msgstr "Taken Seats"
+
+#. module: openacademy
+#: sql_constraint:openacademy.course:0
+msgid "The course title must be unique"
+msgstr "El título del curso debe ser único"
+
+#. module: openacademy
+#: code:addons/openacademy/models/models.py:155
+#, python-format
+msgid "The number of available seats may not be negative"
+msgstr "El número de asientos disponibles no puede ser negativo"
+
+#. module: openacademy
+#: sql_constraint:openacademy.course:0
+msgid "The title of the course should not be the same description"
+msgstr "El título del curso no puede ser el mismo que el de la descripción"
+
+#. module: openacademy
+#: model:ir.ui.view,arch_db:openacademy.course_form_view
+msgid "This is a example of notebooks"
+msgstr "Este es un ejemplo de cuadernos"
+
+#. module: openacademy
+#: model:ir.model.fields,field_description:openacademy.field_openacademy_course_name
+msgid "Title"
+msgstr "Título"
+
+#. module: openacademy
+#: code:addons/openacademy/models/models.py:162
+#, python-format
+msgid "Too many attendees"
+msgstr "Too many attendees"
+
+#. module: openacademy
+#: model:ir.model,name:openacademy.model_openacademy_course
+msgid "openacademy.course"
+msgstr "openacademy.course"
+
+#. module: openacademy
+#: model:ir.model,name:openacademy.model_openacademy_session
+msgid "openacademy.session"
+msgstr "openacademy.session"
+
+#. module: openacademy
+#: model:ir.model,name:openacademy.model_openacademy_wizard
+msgid "openacademy.wizard"
+msgstr "openacademy.wizard"
+
+#. module: openacademy
+#: model:ir.model,name:openacademy.model_openacadmey_wizard
+msgid "openacadmey.wizard"
+msgstr "openacadmey.wizard"
+
+#. module: openacademy
+#: model:ir.ui.view,arch_db:openacademy.wizard_form_view
+msgid "or"
+msgstr "or"
